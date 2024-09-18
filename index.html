@@ -4,13 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assistenza Caleffi</title>
+    <style>
+        /* Stile base per il layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #007b8f; /* Colore simile al verde Caleffi */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Posiziona il chatbot in basso a destra */
+        .bp-widget-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Benvenuto alla pagina di assistenza Caleffi</h1>
-    
+    <header>
+        <h1>Benvenuto alla pagina di assistenza Caleffi</h1>
+    </header>
+
+    <main>
+        <p>Qui puoi trovare assistenza tecnica e risposte alle tue domande.</p>
+    </main>
+
+    <footer>
+        <p>© 2024 Caleffi - Tutti i diritti riservati</p>
+    </footer>
+
     <!-- Codice del chatbot -->
     <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
     <script src="https://mediafiles.botpress.cloud/50e68ff2-2dba-4ba7-b310-17968ff1f9cf/webchat/config.js" defer></script>
-    
 </body>
 </html>
